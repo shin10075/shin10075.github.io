@@ -1,1 +1,0 @@
-# shin10075.github.io
