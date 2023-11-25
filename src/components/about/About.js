@@ -12,7 +12,7 @@ export default function About() {
             <p><span style={{color: info.baseColor}}>{info.lastName} {info.firstName} $</span> about {info.firstName} </p>
             <p><span style={{color: info.baseColor}}>about {info.firstName} <span
                 className={Style.green}>(main)</span> $ </span>
-                {info.bio}
+                {info.bios.map((bio, index) => <div key={index}>{bio}</div>)}
             </p>
         </>;
     }

@@ -22,7 +22,7 @@ of what each of the values mean.
 export const info = {
     firstName: "용수",
     lastName: "신",
-    position: "풀스텍 개발자",
+    position: "웹 개발자",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -37,7 +37,7 @@ export const info = {
         },
         {
             emoji: "🐣",
-            text: "병아리 풀스택 개발자"
+            text: "병아리 웹 개발자"
         },
         {
             emoji: "📧",
@@ -46,17 +46,12 @@ export const info = {
     ],
     socials: [
         {
-            link: "",
-            icon: 'fa fa-sticky-note-o',
-            label: 'obsidian'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/shin10075",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "",
+            link: "https://drive.google.com/file/d/1OIeSawlKW4PO90Jp7nYgQC72GuSAGDG8/view?usp=drive_link",
             icon: "fa fa-user",
             label: 'resume'
         }
@@ -64,7 +59,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "안녕하세요. 신입 개발자로서 최선을 다하고 있는 신용수입니다. 감사합니다.",
+    bios: ["안녕하십니까.", "신입 웹 개발자가 되고싶은 신용수입니다.", "인생에서 빠지지 말아야 할 것은 ‘공부'와 ‘사랑'이라고 생각합니다.", "방황에 빠진 제 자신을 구해준 것은 다름아닌 프로그래밍이었습니다.", "제 손으로 뭔가를 만들어 본다는 것은 많은 공부가 필요함을 느끼게 했습니다.", "또한 나를 위한 것이 아니라 남을 위해 만든다는 것은 처음으로 제가 받아온 사랑을 보답할 기회라고 생각했습니다.", "저도 도움을 받았기에 도움을 줄 차례라고 생각합니다.", "저의 목표는 누군가를 위해서 공부를 하고 그 누군가가 도움을 받아 더 큰 도움을 다른 누군가에게 주는 ‘호혜의 고리’를 만드는 것입니다.", "목표에 도달하기 위해 최선을 다해 개발을 배워나가고 있습니다.", "감사합니다."],
     skills:
         {
             proficientWith: ['java', 'spring', 'springboot', 'mysql', 'oracle db', 'git', 'github', 'html5', 'css3', 'javascript', 'jsp'],
@@ -94,12 +89,12 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            source: "https://github.com/shin10075/fundable", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "Project 2",
-            source: "https://github.com/paytonjewell",
+            source: "https://github.com/shin10075/hellomentor",
             image: mock2
         }
     ]
