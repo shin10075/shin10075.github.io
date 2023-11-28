@@ -51,7 +51,7 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://drive.google.com/file/d/1OIeSawlKW4PO90Jp7nYgQC72GuSAGDG8/view?usp=drive_link",
+            link: "https://shin10075.notion.site/shin10075/Web-Developer-11b2e41ed93b44a3ad8ca84e9fb33526",
             icon: "fa fa-user",
             label: 'resume'
         }
